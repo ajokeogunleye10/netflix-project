@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <style>
+        body{
+            background: url(./asset/NG-en-20221031-popsignuptwoweeks-perspective_agitlpha_website_medium.jpg) ;
+        }
+        .container{
+            width: 50%;
+            height: 400px;
+            background-color: rgb(25, 21, 21);
+            align-items: center;
+            /* justify-content: center; */
+            margin:auto;
+        }
+        h1{
+            color: #fff;
+            text-align: center;
+            padding-top: 20px;
+        }
+        #email{
+            background-color: rgb(91, 81, 81);
+            border-radius: 5px;
+            padding:  5px 25px;
+            display: block;
+            justify-content: center;
+            margin: 6px auto;
+        }
+        #sign{
+          background-color: red;
+          border-radius: 5px;
+          border: none;
+          padding: 10px 90px;
+          margin: 6px 95px;
+          justify-content: center;
+          color: #fff;
+          font-weight: 500;
+          font-size: 1rem;
+        }
+        .btn_container{
+            justify-content: space-between;
+            display: flex;
+        }
+        #check{
+            padding: 25px;
+            background-color: gray;
+            border-radius: 3px;
+            border: none;
+            margin: 0 95px;
+        }
+        .btn_container >span{
+            color: #fff;
+            text-transform: capitalize;
+            /* padding: 10px; */
+        }
+        #text{
+            color: #fff;
+            text-transform: capitalize;
+            /* padding: 10px; */
+        }
+        .text{
+            display: inline;
+            /* padding-right: -20px; */
+        }
+        .text_wrapper >h3{
+            color: gray;
+             text-align: center;
+        }
+        .text_wrapper >p{
+            color: gray;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>sign in</h1>
+        <form action="">
+           <input type="email" name="" placeholder="email or phone number" id="email">
+           <input type="password" name="" id="email"
+           placeholder="password">
+           <input type="button" value="sign in" id="sign">
+        </form>
+        <div class="btn_container">
+            <!-- <button></button> -->
+            <div class="text">
+                    <input type="checkbox" name="" id="check">  
+                <span id="text">remember me</span>
+            </div>
+                <span>need help?</span>
+        </div>    
+        <div class="text_wrapper">
+            <h3>new to netflix? sign up now.</h3>
+            <p>this page is protected by googlle reCAPTCHA to ensure you are not a bot.<a href="#">learn more.</a></p>
+        </div>
+    </div>
+</body>
+</html>
