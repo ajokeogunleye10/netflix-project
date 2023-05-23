@@ -29,7 +29,7 @@
     }
 .header{
     background: linear-gradient(to bottom,rgba(19, 18, 18, 0.386),rgba(29, 28, 28, 0.67)),
-    url(./NG-en-20221031-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    url(./asset/NG-en-20221031-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
